@@ -98,7 +98,7 @@ header {
 }
 .about h2{
     font-size: 40px;
-    color: rgb(28, 50, 112);
+    color: rgb(44, 69, 139);
 }
 .about h1{
     font-size: 60px;
@@ -126,6 +126,7 @@ header {
     font-size: 40px;
 }
 .right li{
+    display: flex;
     margin-top: 10px;
     font-size: 22px;
 }
@@ -138,4 +139,59 @@ header {
 
 .fa-download{
     color: gray;
+}
+.skils{
+    width: 100%;
+    height: 800px;
+    background-color: rgb(255, 220, 255);
+}
+.skils h2{
+    font-size: 30px;
+    color: cadetblue;
+}
+.skils h1{
+    font-size: 50px;
+}
+.inner{
+    width: 1200px;
+    height: 800px;
+    margin: 0 auto;
+
+    padding-top: 100px;
+}
+.contents-1{
+    width: 1200px;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contents-1 li{
+    width: 350px;
+    height: 350px;
+    background-color: azure;
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+    transition: 0.3s;
+}
+.skils h3{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.skils li:hover{
+    background-color: rgb(191, 191, 206);
+    color: white;
+    transform: scale(1.05);
+}
+.contents-1 img{
+    width: 100px;
+    height: 70px;
+}
+.bg{
+    width: 100%;
+    height: 800px;
+    background: url(2295_RW_Templateprops-wedding-photo-booth.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
